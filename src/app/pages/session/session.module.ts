@@ -10,8 +10,8 @@ import { SessionPage } from './session.page';
 const routes: Routes = [
   {
     path: '',
-    component: SessionPage
-  }
+    component: SessionPage,
+  },
 ];
 
 @NgModule({
@@ -19,8 +19,8 @@ const routes: Routes = [
     CommonModule,
     FormsModule,
     IonicModule,
-    RouterModule.forChild(routes)
+    RouterModule.forChild(routes),
   ],
-  declarations: [SessionPage]
+  declarations: [SessionPage],
 })
 export class SessionPageModule {}

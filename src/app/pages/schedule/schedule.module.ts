@@ -10,8 +10,8 @@ import { SchedulePage } from './schedule.page';
 const routes: Routes = [
   {
     path: '',
-    component: SchedulePage
-  }
+    component: SchedulePage,
+  },
 ];
 
 @NgModule({
@@ -19,8 +19,8 @@ const routes: Routes = [
     CommonModule,
     FormsModule,
     IonicModule,
-    RouterModule.forChild(routes)
+    RouterModule.forChild(routes),
   ],
-  declarations: [SchedulePage]
+  declarations: [SchedulePage],
 })
 export class SchedulePageModule {}

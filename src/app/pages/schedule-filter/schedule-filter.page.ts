@@ -6,13 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./schedule-filter.page.scss'],
 })
 export class ScheduleFilterPage implements OnInit {
+  constructor() {}
 
-  
-
-  constructor() { }
-
-  ngOnInit() {
-    
-  }
-
+  ngOnInit() {}
 }

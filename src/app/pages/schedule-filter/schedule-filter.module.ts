@@ -10,8 +10,8 @@ import { ScheduleFilterPage } from './schedule-filter.page';
 const routes: Routes = [
   {
     path: '',
-    component: ScheduleFilterPage
-  }
+    component: ScheduleFilterPage,
+  },
 ];
 
 @NgModule({
@@ -19,8 +19,8 @@ const routes: Routes = [
     CommonModule,
     FormsModule,
     IonicModule,
-    RouterModule.forChild(routes)
+    RouterModule.forChild(routes),
   ],
-  declarations: [ScheduleFilterPage]
+  declarations: [ScheduleFilterPage],
 })
 export class ScheduleFilterPageModule {}

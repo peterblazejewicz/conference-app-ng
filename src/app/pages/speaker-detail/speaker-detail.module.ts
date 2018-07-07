@@ -10,8 +10,8 @@ import { SpeakerDetailPage } from './speaker-detail.page';
 const routes: Routes = [
   {
     path: '',
-    component: SpeakerDetailPage
-  }
+    component: SpeakerDetailPage,
+  },
 ];
 
 @NgModule({
@@ -19,8 +19,8 @@ const routes: Routes = [
     CommonModule,
     FormsModule,
     IonicModule,
-    RouterModule.forChild(routes)
+    RouterModule.forChild(routes),
   ],
-  declarations: [SpeakerDetailPage]
+  declarations: [SpeakerDetailPage],
 })
 export class SpeakerDetailPageModule {}

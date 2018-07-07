@@ -10,8 +10,8 @@ import { MapPage } from './map.page';
 const routes: Routes = [
   {
     path: '',
-    component: MapPage
-  }
+    component: MapPage,
+  },
 ];
 
 @NgModule({
@@ -19,8 +19,8 @@ const routes: Routes = [
     CommonModule,
     FormsModule,
     IonicModule,
-    RouterModule.forChild(routes)
+    RouterModule.forChild(routes),
   ],
-  declarations: [MapPage]
+  declarations: [MapPage],
 })
 export class MapPageModule {}

@@ -6,13 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./session.page.scss'],
 })
 export class SessionPage implements OnInit {
+  constructor() {}
 
-  
-
-  constructor() { }
-
-  ngOnInit() {
-    
-  }
-
+  ngOnInit() {}
 }

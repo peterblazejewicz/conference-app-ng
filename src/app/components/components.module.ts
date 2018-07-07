@@ -4,11 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { IonicModule } from '@ionic/angular';
 
 @NgModule({
-  imports: [
-    CommonModule,
-    FormsModule,
-    IonicModule.forRoot(),
-  ],
+  imports: [CommonModule, FormsModule, IonicModule.forRoot()],
   declarations: [],
   entryComponents: [],
 })

@@ -6,34 +6,37 @@ import { StatusBar } from '@ionic-native/status-bar/ngx';
 
 @Component({
   selector: 'app-root',
-  templateUrl: 'app.component.html'
+  templateUrl: 'app.component.html',
 })
 export class AppComponent implements OnInit {
   public appPages = [
     {
       title: 'Schedule',
       url: '/schedule',
-      icon: 'calendar'
-    }, {
+      icon: 'calendar',
+    },
+    {
       title: 'Speakers',
       url: '/speakers',
-      icon: 'contacts'
-    }, {
+      icon: 'contacts',
+    },
+    {
       title: 'Map',
       url: '/map',
-      icon: 'map'
-    }, {
+      icon: 'map',
+    },
+    {
       title: 'About',
       url: '/about',
-      icon: 'information-circle'
+      icon: 'information-circle',
     },
   ];
 
   constructor(
     private platform: Platform,
     private splashScreen: SplashScreen,
-    private statusBar: StatusBar
-  ) { }
+    private statusBar: StatusBar,
+  ) {}
 
   ngOnInit() {
     this.initializeApp();

@@ -10,8 +10,8 @@ import { SpeakerListPage } from './speaker-list.page';
 const routes: Routes = [
   {
     path: '',
-    component: SpeakerListPage
-  }
+    component: SpeakerListPage,
+  },
 ];
 
 @NgModule({
@@ -19,8 +19,8 @@ const routes: Routes = [
     CommonModule,
     FormsModule,
     IonicModule,
-    RouterModule.forChild(routes)
+    RouterModule.forChild(routes),
   ],
-  declarations: [SpeakerListPage]
+  declarations: [SpeakerListPage],
 })
 export class SpeakerListPageModule {}

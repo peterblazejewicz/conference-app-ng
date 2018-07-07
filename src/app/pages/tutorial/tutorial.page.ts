@@ -6,13 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./tutorial.page.scss'],
 })
 export class TutorialPage implements OnInit {
+  constructor() {}
 
-
-
-  constructor() { }
-
-  ngOnInit() {
-
-  }
-
+  ngOnInit() {}
 }
