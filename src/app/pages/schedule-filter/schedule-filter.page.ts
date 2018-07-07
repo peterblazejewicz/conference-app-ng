@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'schedule-filter',
+  selector: 'app-schedule-filter',
   templateUrl: './schedule-filter.page.html',
   styleUrls: ['./schedule-filter.page.scss'],
 })
